@@ -1,0 +1,19 @@
+#: /plugins/payment/views/admin/platron.ctp
+msgid "Merchant id"
+msgstr "Номер магазина (merchant_id)"
+
+#: /plugins/payment/views/admin/platron.ctp
+msgid "Secret key"
+msgstr "Секретный ключ (secret_key)"
+
+#: /plugins/payment/views/admin/platron.ctp
+msgid "Secret key"
+msgstr "Секретный ключ (secret_key)"
+
+#: /plugins/payment/views/admin/platron.ctp
+msgid "Life time"
+msgstr "Время жизни счета в минутах"
+
+#: /plugins/payment/views/admin/platron.ctp
+msgid "Demo mode"
+msgstr "Тестовый режим"
