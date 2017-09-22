@@ -118,7 +118,7 @@ class PlatronController extends PaymentAppController {
 		$arrSecretKey = $this->PaymentMethod->PaymentMethodValue->find('first', array('conditions' => array('key' => 'secret_key')));
 		$arrFields['pg_sig'] = PG_Signature::make('payment.php', $arrFields, $arrSecretKey['PaymentMethodValue']['value']);
 		
-		$strContent = "<form id='contentform' action='http://www.platron.ru/payment.php' method='get'>";
+		$strContent = "<form id='contentform' action='https://www.platron.ru/payment.php' method='get'>";
 		foreach($arrFields as $strName => $strValue){
 			$strContent .= "<input type='hidden' name='$strName' value='$strValue'>";
 		}
